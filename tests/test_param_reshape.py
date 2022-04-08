@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append('')
+
 import jax
 import jax.numpy as jnp
 from flax import linen as nn

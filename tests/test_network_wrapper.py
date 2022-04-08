@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append('')
+
 import jax
 import jax.numpy as jnp
 from evosax.networks import MLP, LSTM, CNN, All_CNN_C

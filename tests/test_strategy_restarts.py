@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append('')
+
 import jax
 import jax.numpy as jnp
 from evosax import CMA_ES, IPOP_CMA_ES, BIPOP_CMA_ES

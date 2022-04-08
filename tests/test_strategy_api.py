@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append('')
+
 import jax
 from evosax import Strategies
 from evosax.problems import ClassicFitness
